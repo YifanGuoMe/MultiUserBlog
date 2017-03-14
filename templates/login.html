@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in</title>
+</head>
+<body>
+	<form method = "post">
+		<h1> Login</h1>
+		<div>
+			Username
+			<input type = "text" name = "username" value = "{{user_name}}">
+			{{invalid_username}}
+		</div>
+		<div>
+			Password
+			<input type = "password" name = "password">
+			{{invalid_password}}
+		</div>
+		<br>
+		<input type = "submit">
+	</form>
+</body>
+</html>
